@@ -47,8 +47,8 @@ public class Main{
         }
         boolean ans = Solution.isCycle(N,adj);
         if(ans)
-            System.out.println("1");
+            System.out.println(true);
         else
-            System.out.println("0");
+            System.out.println(false);
     }
 }
